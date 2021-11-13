@@ -19,6 +19,7 @@ function mostrarSaludo() {
         var texto = "Buenas Noches";
         var complemento = "Por fin es hora de descansar, mañana será un nuevo día"
         var imagen = "img/bed.png";
+        
     }
     document.images["tiempo"].src = imagen;
     document.getElementById('txtsaludo').innerHTML = texto;
