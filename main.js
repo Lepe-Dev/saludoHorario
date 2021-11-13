@@ -15,7 +15,7 @@ function mostrarSaludo() {
         var complemento = "Es hora de un buen almuerzo para mantener las energías"
         var imagen = "img/lunch.png";
     }
-    if (hora >= 18 && hora < 6) {
+    if (hora >= 18 && hora < 24 || hora >= 0 && hora < 6) {
         var texto = "Buenas Noches";
         var complemento = "Por fin es hora de descansar, mañana será un nuevo día"
         var imagen = "img/bed.png";
