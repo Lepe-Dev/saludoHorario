@@ -1,0 +1,32 @@
+body {
+    background-color: #deb887;
+    margin: 0;
+
+}
+
+#saludo {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto {
+    margin: 0;
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    border: solid 2px #fff;
+}
+
+.complemento {
+    padding: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Praise', cursive;
+    text-decoration: underline;
+}
+
+#image {
+    max-width: 40%;
+}
+
